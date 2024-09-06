@@ -1,0 +1,597 @@
+/* ==UserStyle==
+@name           LeetCode Catppuccin
+@namespace      github.com/openstyles/stylus
+@version        1.0
+@description    A soothing pastel theme for LeetCode!
+@author         ashish0kumar
+@license        MIT
+==/UserStyle== */
+
+@-moz-document domain("leetcode.com") {
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+    :root {
+        --bg-dark: #11111b;
+        --bg-code: #181825;
+        --bg: #1e1e2e;
+        --bg-2: #313244;
+        --bg-3: #45475a;
+        --bg-4: #585b70;
+        --bg-blue: #1e66f5;
+        --bg-green: #1AA88E;
+        --bg-red: #d20f39;
+        --highlight-1: #24273a;
+        --highlight-2: #313244;
+        --blue-accent: #b4befe;
+        --text: #cdd6f4;
+        --text-dark: #9399b2;
+        --cyan: #cba6f7;
+        --blue: #89b4fa;
+        --blue-dark: #7287fd;
+        --orange: #fab387;
+        --orange-dark: #e3a144;
+        --red: #eba0ac;
+        --red-dark: #f38ba8;
+        --green: #a6e3a1;
+        --green-dark: #1abc9c;
+        --purple: #bb9af7;
+
+        /* General */
+        --text-primary: var(--text);
+        --text-secondary: var(--text);
+        --fill-secondary: var(--bg-2);
+        --fill-quaternary: var(--bg);
+        --text-sd-success: var(--red);
+        --text-label-4: var(--red);
+        --text-reverse: var(--bg-dark);
+        --fill-primary: color-mix(in srgb, var(--blue), var(--bg-dark) 75%);
+        --fill-tertiary: var(--bg-2);
+        --border-primary: var(--blue);
+        --border-secondary: var(--bg-2);
+        --border-tertiary: var(--bg-2);
+        --border-quaternary: var(--bg);
+
+        /* Code */
+        --layer-01: var(--bg);
+        --layer-02: var(--bg-2);
+        --layer-bg-gray: var(--bg-dark);
+    }
+
+    :is(.dark body) {
+        background: var(--bg-dark);
+        color: var(--text);
+    }
+
+    :is(.dark .dark\:bg-\[\#1a1a1a\]) {
+        background: var(--bg-dark);
+    }
+
+    :is(.dark .dark\:bg-\[\#333333\]) {
+        background: var(--bg)
+    }
+
+    :is(.dark .dark\:bg-gray-100),
+    :is(.dark .dark\:text-gray-60) {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:bg-white) {
+        background: var(--text);
+    }
+
+    :is(.dark .dark\:bg-\[linear-gradient\(rgba\(0\,0\,0\,0\)\,\#1A1A1A\)\]) {
+        background-image: linear-gradient(#0000, var(--bg-dark));
+    }
+
+    :is(.dark .dark\:bg-dark-layer-bg) {
+        background: var(--bg-dark);
+    }
+
+    :is(.dark .dark\:bg-dark-layer-1),
+    :is(.dark .dark\:bg-dark-layer-2),
+    :is(.dark .dark\:bg-dark-layer-3) {
+        background: var(--bg);
+    }
+
+    :is(.dark .dark\:bg-dark-paper) {
+        background: var(--bg-dark)
+    }
+
+    :is(.dark .dark\:text-dark-gray-6) {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:border-dark-divider-border-2) {
+        border-color: var(--bg-2);
+    }
+
+    .border-dark-label-3 {
+        border-color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:bg-dark-fill-1),
+    :is(.dark .dark\:bg-dark-fill-2),
+    :is(.dark .dark\:bg-dark-fill-3),
+    :is(.dark .dark\:hover\:bg-dark-fill-3:hover) {
+        background: var(--highlight-1)
+    }
+
+    :is(.dark .dark\:bg-dark-fill-4),
+    :is(.dark .dark\:hover\:bg-dark-fill-4:hover) {
+        background: var(--highlight-1);
+    }
+
+    :is(.dark .dark\:bg-dark-gray-5) {
+        background: var(--bg-4);
+    }
+
+    :is(.dark .dark\:hover\:bg-dark-fill-2:hover) {
+        background: var(--bg-2);
+    }
+
+    :is(.dark .dark\:focus\:bg-dark-fill-2:focus) {
+        background: var(--bg-3);
+    }
+
+    :is(.dark .dark\:text-dark-label-1),
+    :is(.dark .dark\:hover\:text-dark-label-1:hover),
+    .text-label-1,
+    .text-label-1:hover,
+    :is(.dark .dark\:text-dark-label-2),
+    :is(.dark .dark\:hover\:text-dark-label-2:hover),
+    :is(.dark .dark\:text-dark-label-3) {
+        color: var(--text);
+    }
+
+    :is(.dark .dark\:hover\:text-dark-label-3:hover),
+    :is(.dark .dark\:text-dark-label-4) {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:text-dark-label-r) {
+        color: var(--bg-dark);
+    }
+
+    :is(.dark .dark\:text-dark-gray-4) {
+        color: var(--bg-dark);
+    }
+
+    :is(.dark .dark\:text-dark-gray-5) {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:text-gray-7) {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:text-text-primary) {
+        color: var(--text);
+    }
+
+    :is(.dark .dark\:text-text-secondary) {
+        color: var(--text);
+    }
+
+    :is(.dark .dark\:text-text-tertiary) {
+        color: var(--text-dark);
+    }
+
+    /* Loading Content (lc) */
+    :is(.dark .dark\:bg-dark-lc-layer-01) {
+        background: var(--bg-dark);
+    }
+
+    :is(.dark .dark\:bg-dark-lc-fill-01),
+    :is(.dark .dark\:hover\:bg-dark-lc-fill-01:hover) {
+        background: var(--bg-4);
+    }
+
+    :is(.dark .dark\:bg-dark-lc-fill-02),
+    :is(.dark .dark\:hover\:bg-dark-lc-fill-02:hover) {
+        background: var(--bg-2);
+    }
+
+    :is(.dark .dark\:bg-dark-lc-fill-03),
+    :is(.dark .dark\:hover\:bg-dark-lc-fill-03:hover) {
+        background: var(--bg-2);
+    }
+
+    :is(.dark .dark\:bg-dark-lc-fill-04),
+    :is(.dark .dark\:hover\:bg-dark-lc-fill-04:hover) {
+        background: var(--bg-2);
+    }
+
+    :is(.dark .dark\:bg-dark-lc-background-index) {
+        background: var(--bg-dark);
+    }
+
+    :is(.dark .dark\:border-dark-lc-fill-01) {
+        background: var(--bg);
+    }
+
+    :is(.dark .dark\:hover\:bg-dark-lc-fill-02) {
+        background: var(--highlight-1);
+    }
+
+    :is(.dark .dark\:hover\:bg-dark-lc-fill-02:hover) {
+        background: var(--bg-2);
+    }
+
+    :is(.dark .dark\:text-dark-lc-text-primary) {
+        color: var(--text);
+    }
+
+    :is(.dark .dark\:text-dark-lc-text-secondary) {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:text-dark-lc-text-tertiary) {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:text-dark-lc-text-quaternary) {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:border-dark-lc-fill-02) {
+        border-color: var(--bg-2);
+    }
+
+    :is(.dark .dark\:text-dark-lc-icon-secondary),
+    :is(.dark .dark\:text-dark-lc-icon-tertiary) {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:stroke-dark-lc-fill-02) {
+        stroke: var(--bg-2);
+    }
+
+    :is(.dark .group:hover .dark\:group-hover\:text-dark-blue) {
+        color: var(--blue);
+    }
+
+    :is(.dark .dark\:text-dark-blue-s) {
+        color: var(--blue);
+    }
+
+    :is(.dark .dark\:bg-dark-overlay-3) {
+        background: var(--bg);
+    }
+
+    .bg-overlay-2,
+    .bg-overlay-3,
+    .bg-overlay-4,
+    .bg-paper {
+        background: var(--bg);
+    }
+
+    /* Table */
+    :is(.dark .dark\:odd\:bg-dark-layer-1:nth-child(2n+1)) {
+        background: var(--bg-dark);
+    }
+
+    :is(.dark .dark\:odd\:bg-dark-layer-bg:nth-child(2n+1)) {
+        background: var(--bg-dark);
+    }
+
+    :is(.dark .dark\:even\:bg-dark-fill-4:nth-child(2n)) {
+        background: var(--bg);
+    }
+
+    .even\:bg-overlay-1:nth-child(2n) {
+        background: var(--bg);
+    }
+
+    tr:nth-of-type(2n+1) {
+        background: var(--bg-dark) !important;
+    }
+
+    tr:nth-of-type(2n) {
+        background: var(--bg) !important;
+    }
+
+    .grid> :is(.dark .dark\:bg-dark-lc-fill-01),
+    :is(.dark .dark\:hover\:bg-dark-lc-fill-01:hover) {
+        background: var(--highlight-1);
+    }
+
+    /* Transparents */
+    .bg-gray-8 {
+        background-color: var(--bg-dark);
+    }
+
+    :is(.dark .dark\:text-dark-lc-icon-primary) {
+        background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .bg-gradient-to-l {
+        background-image: linear-gradient(to right, #0000, var(--bg-dark));
+    }
+
+    :is(.dark .dark\:bg-\[linear-gradient\(to_right\,rgba\(0\,0\,0\,0\)\,\#282828_70\%\)\]),
+    .flexlayout__tabset-overflowed .flexlayout__tabset_tabbar_inner::after {
+        background-image: linear-gradient(to right, #0000, var(--bg));
+    }
+
+    .flexlayout__tabset-overflowed .flexlayout__tabset_tabbar_inner::before {
+        background-image: linear-gradient(to left, #0000, var(--bg));
+    }
+
+    /* Code */
+    .mtk1 {
+        color: var(--text);
+    }
+
+    .mtk3 {
+        color: var(--text-dark);
+    }
+
+    .mtk4 {
+        color: var(--blue);
+    }
+
+    .mtk7 {
+        color: var(--orange);
+    }
+
+    .mtk10 {
+        color: var(--green-dark);
+    }
+
+    .mtk11 {
+        color: var(--orange);
+    }
+
+    .mtk14 {
+        color: var(--text);
+    }
+
+    .monaco-editor .line-numbers.active-line-number {
+        color: var(--text);
+    }
+
+    .monaco-editor .line-numbers {
+        color: var(--text-dark);
+    }
+
+    .dark .elfjS code {
+        background-color: var(--bg-2);
+        border-color: var(--bg-2);
+        color: var(--text);
+    }
+
+    .monaco-scrollable-element>.scrollbar>.slider {
+        background: var(--bg-2);
+    }
+
+    .decorationsOverviewRuler {
+        display: none;
+    }
+
+    .view-line,
+    .line-numbers {
+        font-family: "JetBrains Mono", sans-serif;
+    }
+
+    .current-line {
+        background: var(--highlight-1);
+        border-color: var(--highlight-1) !important;
+    }
+
+    .core-guide {
+        box-shadow: 2px 0 0 0 var(--highlight-2) inset !important;
+    }
+
+    .cursor {
+        color: var(--text);
+    }
+
+    .bg-sd-accent {
+        background-color: var(--highlight-1);
+    }
+
+    .bg-sd-card {
+        background: var(--bg);
+    }
+
+    .hover\:bg-sd-secondary\/80 {
+        background: var(--highlight-2);
+    }
+
+    .hover\:bg-sd-secondary\/80:hover {
+        background: var(--highlight-1);
+    }
+
+    .ace-tm,
+    .ace-tm .ace_gutter {
+        background: var(--bg);
+        color: var(--text);
+    }
+
+    .editor {
+        border-color: var(--highlight-1);
+    }
+
+
+    body,
+    #explore-app {
+        background: var(--bg-dark);
+    }
+
+    #leetcode-navbar,
+    #footer-root,
+    footer,
+    footer>div,
+    footer li::after {
+        background: var(--bg) !important;
+        border: none !important;
+    }
+
+    footer span,
+    footer a {
+        color: var(--text-dark) !important;
+    }
+
+    .ml-0,
+    .ml-4,
+    #subscribe,
+    .text-brand-orange.mt-1.flex.items-center.text-xs {
+        display: none;
+    }
+
+    /* Removes Premium button */
+    strong {
+        color: var(--text) !important;
+    }
+
+    ::placeholder {
+        color: var(--text-dark) !important;
+    }
+
+    ::highlight() {
+        background-color: var(--text) !important;
+    }
+
+    * {
+        scrollbar-color: var(--bg-2) var(--bg);
+    }
+
+    /* Explore Page */
+    .explore-home-showcase .explore-index-showcase-base .showcase-row::before {
+        background: linear-gradient(to right, var(--bg-dark), rgba(250, 250, 250, 0));
+    }
+
+    .explore-home-showcase .explore-index-showcase-base .showcase-row::after {
+        background: linear-gradient(to left, var(--bg-dark), rgba(250, 250, 250, 0));
+    }
+
+    .dragscroll-container:hover .scroll-btn:hover {
+        opacity: 0.3;
+    }
+
+    .dragscroll-container:hover .scroll-btn {
+        opacity: 0.1;
+    }
+
+    .explore-card-base .explore-card .start-button-base,
+    .start-button-base,
+    .explore-home-basic .category-title .more-btn,
+    .explore-home-basic .category-title .more-btn:hover {
+        background: var(--highlight-1);
+        box-shadow: none;
+    }
+
+    .explore-page-title,
+    .explore-card-base a,
+    .explore-card-base .explore-card .bot-base .big-number,
+    .category-title div,
+    i,
+    .explore-card-base .explore-card .bot-base .big-number {
+        color: var(--text);
+    }
+
+    .explore-heading .back-label,
+    .page-heading .back-label,
+    .explore-heading .page-label,
+    .page-heading .page-label,
+    .explore-card-base .explore-card .bot-base .card-stats .stats.status.complete-precentage,
+    .explore-home-basic .popular-section .title,
+    .explore-card-base .explore-card .bot-base .text-label {
+        color: var(--text-dark);
+        text-shadow: none;
+    }
+
+    .explore-card-base .explore-card .top-base .explore-heading .description,
+    .explore-card-base .explore-card .top-base .explore-heading .title {
+        color: var(--text);
+        margin-top: 0;
+    }
+
+    .explore-card-base .explore-card {
+        background: var(--highlight-1);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .explore-card-base .explore-card:hover {
+        box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .doughnut-chart-base {
+        display: none;
+    }
+
+    .highcharts-point {
+        stroke: #1e1e2e !important;
+    }
+
+    .highcharts-axis-labels text {
+        fill: #7f849c !important;
+    }
+
+    .start-button-base {
+        border: 3px solid var(--text-dark);
+        padding-top: 20px !important;
+    }
+
+    .btn.btn-default,
+    .btn.btn-default:active,
+    .btn.btn-default:active:focus,
+    .btn.btn-default:focus,
+    .problem-category .problem-category-info a:hover {
+        background: var(--highlight-1);
+        color: var(--text);
+        border-color: var(--highlight-2)
+    }
+
+    /* Profile */
+    .text-sd-foreground {
+        color: var(--text);
+    }
+
+    .text-sd-muted-foreground {
+        color: var(--text-dark);
+    }
+
+    :is(.dark .dark\:bg-\[rgba\(255\,255\,255\,0\.06\)\]) {
+        background: var(--highlight-1)
+    }
+
+    .stroke-sd-primary\/20 {
+        stroke: var(--text-dark);
+    }
+
+    :is(.dark .dark\:stroke-\[\#434343\]) {
+        stroke: var(--bg-2);
+    }
+
+    /* Main Page */
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    b,
+    .msg .since {
+        color: var(--text);
+    }
+
+    .discuss-markdown-container,
+    .side-block .side-block-info,
+    .msg .description {
+        color: var(--text-dark);
+    }
+
+    .storyboard,
+    .storyboard div,
+    hr,
+    .side-block {
+        border-color: var(--bg-2) !important;
+    }
+
+    #lc_sitewide_announcement {
+        background: var(--brand-orange);
+        color: var(--bg-dark);
+    }
+
+}
