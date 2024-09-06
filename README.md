@@ -10,17 +10,27 @@
 	<a href="https://userstyles.world/api/style/17998.user.css"><img src="https://img.shields.io/badge/stylus-install-cba6f7?colorA=363a4f&style=for-the-badge"></a>
 </p>
 
+<br/>
+
 <p align="center">
-  <img src="previews/1.png"/><br/><br/>
-  <img src="previews/3.png"/><br/><br/>
-  <img src="previews/2.png"/>
+	<img src="previews/1.png"/><br/><br/>
+  	<img src="previews/3.png"/><br/><br/>
+  	<img src="previews/2.png"/>
 </p>
 
 
+## 🚀 Installation
+You have to install [Stylus](https://add0n.com/stylus.html) and then click on the install link below. <br/><br/>
+<a href="https://userstyles.world/api/style/17998.user.css"><img src="https://img.shields.io/badge/stylus-install-cba6f7?colorA=363a4f&style=for-the-badge"></a>
+
+## 🤝 Contributions
+Any contribution is greatly appreciated.
 
 ## 💝 Current Maintainer
 - [ashish0kumar](https://github.com/ashish0kumar)
 
+## 📜 License
+Code released under the [MIT](LICENSE) license.
 
 &nbsp;
 
