@@ -440,8 +440,9 @@
     }
 
     /* Removes Premium button */
-    strong {
-        color: var(--text) !important;
+    a[href="/subscribe/?ref=lp_pl&source=qd"],
+    a[href="/subscribe/?ref=lp_pl&source=ot"] {
+        display: none;
     }
 
     ::placeholder {
