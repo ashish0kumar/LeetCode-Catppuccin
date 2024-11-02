@@ -254,7 +254,7 @@
         background: linear-gradient(45deg, var(--bg-dark), var(--bg)) !important;
         color: #fff !important;
     }
-    .bg-gray-1 *, .css-bcj5aa {
+    .bg-gray-1 *, .css-bcj5aa, div.mission-board:nth-child(1) > div:nth-child(1) {
         color: #fff !important
     }
     div.lc-lg\:min-h-\[312px\] > div {
