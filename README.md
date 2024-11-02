@@ -16,9 +16,6 @@
 	<img src="previews/1.png"/><br/><br/>
   	<img src="previews/2.png"/><br/><br/>
   	<img src="previews/3.png"/><br/><br/>
-	<img src="previews/4.png"/><br/><br/>
-	<img src="previews/5.png"/><br/><br/>
-	<img src="previews/6.png"/>
 </p>
 
 
