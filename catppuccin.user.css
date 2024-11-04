@@ -185,12 +185,17 @@
     body, #explore-app { background: var(--bg-dark); }
     #leetcode-navbar, #footer-root, footer, footer > div, footer li::after { background: var(--bg) !important; border: none !important; }
     footer span, footer a { color: var(--text-dark) !important; }
+    
     /* Removes Premium button */
     a[href="/subscribe/?ref=lp_pl&source=qd"], a[href="/subscribe/?ref=lp_pl&source=ot"] { display: none; }
+    
     strong { color: var(--text) !important; }
     ::placeholder { color: var(--text-dark) !important; }
     ::highlight() { background-color: var(--text) !important; }
     * { scrollbar-color: var(--bg-2) var(--bg); }
+
+    /* chevron down icon color */
+    svg.origin-center.transition-transform { fill: #45475a; }
     
     /* Explore Page */
     .explore-home-showcase .explore-index-showcase-base .showcase-row::before { background: linear-gradient(to right, var(--bg-dark), rgba(250, 250, 250, 0)); }
