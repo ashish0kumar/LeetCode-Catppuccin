@@ -194,8 +194,16 @@
     ::highlight() { background-color: var(--text) !important; }
     * { scrollbar-color: var(--bg-2) var(--bg); }
 
-    /* chevron down icon color */
+    /* Chevron down icon color */
     svg.origin-center.transition-transform { fill: #45475a; }
+
+    /* Contest Page */
+    .title { color: #cdd6f4; }
+    .col-sm-8.col-md-9  { color: #cdd6f4; }
+    .callout.callout-default { background: #1e1e2e; color: #cdd6f4; border-color: #45475a; }
+    .list-group-item { background: #1e1e2e; color: #cdd6f4; border-color: #45475a; }
+    .list-group-item.heading { background: #1e1e2e; color: #cdd6f4; border-color: #45475a; }
+    .ranking-more-btn { background: #1e1e2e; color: #cdd6f4; }
     
     /* Explore Page */
     .explore-home-showcase .explore-index-showcase-base .showcase-row::before { background: linear-gradient(to right, var(--bg-dark), rgba(250, 250, 250, 0)); }
