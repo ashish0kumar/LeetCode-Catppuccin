@@ -204,6 +204,54 @@
     .list-group-item { background: #1e1e2e; color: #cdd6f4; border-color: #45475a; }
     .list-group-item.heading { background: #1e1e2e; color: #cdd6f4; border-color: #45475a; }
     .ranking-more-btn { background: #1e1e2e; color: #cdd6f4; }
+
+    /* Discuss Page */
+    #discuss-container { background: #11111b; }
+    .header__a1sK { background: #1e1e2e; }
+    .header__a1sK a:hover { color: #cdd6f4; }
+    .category-link__1lP8.active-category__37NE { color: #cdd6f4; }
+    .subheader__3zA6 { background: #181825; }
+    .subheader__3zA6 label { color: #cdd6f4; }
+    .input__2o8B { background: #313244; border: none; }
+    .topic-list-content__3Win { background: #1e1e2e; color: #cdd6f4; }
+    .topic-title__3LYM { color: #cdd6f4; }
+    .topic-info__tdz0 span, .topic-info__tdz0 a { color: #bac2de; }
+    .icon__1Md2.pinned-icon__1ZAy { color: #cdd6f4; }
+    .no__1erK { color: #cdd6f4; }
+    .icon__1Md2.icon__3CsQ { color: #6c7086; }
+    .e5i1odf1.css-zywons-Container-RoundedTagFilter.e5i1odf0 { background: #1e1e2e; }
+    .css-xvf81j-TagsTitle.e5i1odf3 { color: #cdd6f4; }
+    .css-g96614 { background: #45475a; color: #cdd6f4; }
+    .tag__2FfF { background: #45475a; color: #cdd6f4; }
+    .ant-popover-inner-content { background: #45475a; color: #cdd6f4; }
+    .css-wgldzj-Pane-LeftPane.e5i1odf2 { background: #45475a; border: none; }
+    .css-wgldzj-Pane-LeftPane.e5i1odf2 span { color: #cdd6f4; }
+    .css-154bklu-Pane.e5i1odf1 { background: #313244; }
+    .css-154bklu-Pane.e5i1odf1 span { color: #cdd6f4; }
+    .css-2mbh4k-TagButton.e5i1odf3 { border-color: #585b70; border-radius: 0px; }
+    .ant-pagination-item { background: #45475a; }
+    .ant-pagination-item a { color: #cdd6f4; }
+    .pagination-prev a { background: #45475a; }
+    .css-10yicc7-Category.e5i1odf1 { background: #585b70; }
+    .css-10yicc7-Category.e5i1odf1 h1 { color: #cdd6f4; }
+    .css-1pz7gg5:hover { color: #cdd6f4; }
+    .topic-container__3Kpd { background: #1e1e2e; color: #cdd6f4; }
+    .icon__1Md2.css-1mdt1kb-BlockIcon.e5i1odf2 { color: #cdd6f4; }
+    .post-info__1K06 { color: #cdd6f4; }
+    .user-info__2b-x span a { color: #cdd6f4; }
+    .name__2jm2 { color: #cdd6f4; }
+    .discuss-markdown-container a { color: #cdd6f4; }
+    .discuss-markdown-container p { color: #cdd6f4; }
+    .discuss-markdown-container li { color: #cdd6f4; }
+    .discuss-markdown-container ul li a { color: #cdd6f4; }
+    .discuss-markdown-container pre { background: #313244; color: #cdd6f4; }
+    .vote__3Zp9.vote__3btZ { background: #313244; color: #cdd6f4; }
+    .css-1oug3j4 { background: #313244; color: #cdd6f4; }
+    .header___QdN { background: #1e1e2e; color: #cdd6f4; }
+    .sorts__3Wh1 label { color: #cdd6f4; }
+    .btn__1z2C.btn-sm__2msL.btn-info__3EMF.button__13tk.preview__3Il- { background: #313244; color: #cdd6f4; }
+    .wrapper__WG8_.loading-wrapper__1pmE { background: #1e1e2e; color: #cdd6f4; }
+    .ant-message-notice-content { background: #313244; color: #cdd6f4; }
     
     /* Explore Page */
     .explore-home-showcase .explore-index-showcase-base .showcase-row::before { background: linear-gradient(to right, var(--bg-dark), rgba(250, 250, 250, 0)); }
