@@ -193,10 +193,10 @@
     ::placeholder { color: var(--text-dark) !important; }
     ::highlight() { background-color: var(--text) !important; }
     * { scrollbar-color: var(--bg-2) var(--bg); }
-
+    
     /* Chevron down icon color */
     svg.origin-center.transition-transform { fill: #45475a; }
-
+    
     /* Contest Page */
     .title { color: #cdd6f4; }
     .col-sm-8.col-md-9  { color: #cdd6f4; }
@@ -204,7 +204,7 @@
     .list-group-item { background: #1e1e2e; color: #cdd6f4; border-color: #45475a; }
     .list-group-item.heading { background: #1e1e2e; color: #cdd6f4; border-color: #45475a; }
     .ranking-more-btn { background: #1e1e2e; color: #cdd6f4; }
-
+    
     /* Discuss Page */
     #discuss-container { background: #11111b; }
     .header__a1sK { background: #1e1e2e; }
@@ -347,5 +347,24 @@
     .discuss-markdown-container, .side-block .side-block-info, .msg .description { color: var(--text-dark); }
     .storyboard, .storyboard div, hr, .side-block { border-color: var(--bg-2) !important;}
     #lc_sitewide_announcement { background: var(--brand-orange); color: var(--bg-dark); }
+    
+    /* Submissions Page */
+    #details-summary { background: var(--bg) !important; border-color: var(--bg-2); }
+    #details-summary tr:nth-of-type(2n+1) { background: var(--bg) !important; }
+    .col-md-12 .inline-wrap, .col-md-12 .text-center a, .notification-content__1AB_ a { color: var(--blue) !important; }
+    .col-md-12 h4 { padding-top: 1em; }
+    .axisLabels.xaxisLabel, .axisLabels.yaxisLabel, .pull-left, .animated.fadeInLeft h4 small { color: var(--text) !important; }
+    #result_progress_row, #ac_output, #submitted-time, #status, div[style*="text-align: center;"] { color: var(--text) !important; }
+    #result_state { color: var(--green) !important; }
+    .ace_gutter-cell { background: var(--bg-2); }
+    .ace_gutter-cell:first-of-type { background: var(--bg-3); }
+    .notification-menu-container__3MW3, .notification-link__2RRJ { background: var(--bg) !important; }
+    .notification-content__1AB_ div span, .notification-content__1AB_, .notification-title___cgu, .notification-date__3Nqj, .notification-list-link__2K7Q { color: var(--text) !important; }
+    
+    /* Notifications Page */
+    .notification-app-container .notification-list-title { margin-top: 1em; }
+    .notifications-container .notification-list-item.notification-list-unread-item { background: var(--bg); border-bottom: 1px var(--bg-2) solid; }
+    .notifications-container .notification-list-item.notification-list-unread-item, .notification-content-title { color: var(--text) !important; }
+    .btn.notification-content-action-btn { background: var(--blue-dark) !important; color: #fff !important; }
     
 }
