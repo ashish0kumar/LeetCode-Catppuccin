@@ -198,9 +198,19 @@
     svg.origin-center.transition-transform { fill: var(--bg-3); }
     
     /* Contest Page */
+    html { background: var(--bg-dark); }
     .title, .col-sm-8.col-md-9 { color: var(--text); }
     .callout.callout-default, .list-group-item, .heading { background: var(--bg); color: var(--text); border-color: var(--bg-3); }
     .ranking-more-btn { background: var(--bg); color: var(--text); }
+    .list-group-item.heading { color: var(--text); background-color: var(--bg-dark); border-color: var(--bg-3); }
+    .list-group-item a, td a, b a, li a { color: var(--blue); }
+    .badge { color: var(--text); background-color: var(--bg-3); }
+    .panel-default { border-color: var(--bg-3); }
+    .panel-default > .panel-heading { color: var(--text); background-color: var(--bg-dark); border-color: var(--bg-3); }
+    .table > thead > tr > th { border-bottom: 2px solid var(--bg-3); }
+    .table > tbody > tr > td { border-top: 1px solid var(--bg-3); }
+    .contest-detail-base .ranking-list .panel-body .ranking-more-btn { border-top: 2px solid var(--bg-3); }
+    .contest-detail-base .ranking-list .panel-body .ranking-more-btn:hover { background: var(--bg-2); }
     
     /* Discuss Page */
     #discuss-container { background: var(--bg-dark); }
