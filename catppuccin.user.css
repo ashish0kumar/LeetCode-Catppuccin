@@ -186,8 +186,9 @@
     #leetcode-navbar, #footer-root, footer, footer > div, footer li::after { background: var(--bg) !important; border: none !important; }
     footer span, footer a { color: var(--text-dark) !important; }
     
-    /* Removes Premium button */
+    /* Removes Premium buttons */
     a[href="/subscribe/?ref=lp_pl&source=qd"], a[href="/subscribe/?ref=lp_pl&source=ot"] { display: none; }
+    a[href="/subscribe?ref=nb_npl&source=nav-icon"] svg { display: none; }
     
     strong { color: var(--text) !important; }
     ::placeholder { color: var(--text-dark) !important; }
