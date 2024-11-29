@@ -314,6 +314,7 @@
     .notification-content__1AB_ div span, .notification-content__1AB_, .notification-title___cgu, .notification-date__3Nqj, .notification-list-link__2K7Q { color: var(--text) !important; }
     .ace-tm .ace_storage, .ace-tm .ace_keyword, .ace-tm .ace_constant.ace_numeric, .ace-tm .ace_support.ace_function, .ace-tm .ace_constant.ace_language, .ace-tm .ace_entity.ace_name.ace_function { color: var(--blue) !important; }
     .ace-tm .ace_keyword.ace_operator, #runtime-placeholder, #memory-placeholder { color: var(--text) !important; }
+    .ace-tm .ace_marker-layer .ace_selection { background: #264f78; }
     
     /* Notifications Page */
     .notification-app-container .notification-list-title { margin-top: 1em; }
