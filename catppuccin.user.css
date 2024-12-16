@@ -186,10 +186,10 @@
     #leetcode-navbar, #footer-root, footer, footer > div, footer li::after { background: var(--bg) !important; border: none !important; }
     footer span, footer a { color: var(--text-dark) !important; }
     
-    /* Removes Premium buttons */
+    /* Removes unecessary premium buttons */
     a[href="/subscribe/?ref=lp_pl&source=qd"], a[href="/subscribe/?ref=lp_pl&source=ot"] { display: none; }
     a[href="/subscribe?ref=nb_npl&source=nav-icon"] svg { display: none; }
-    a[href="/subscribe/?ref=qd3_cs&slug=minimum-obstacle-removal-to-reach-corner"] { display: none; }
+    a[href*="/subscribe/?ref=qd3_cs&slug="] { display: none; }
     
     strong { color: var(--text) !important; }
     ::placeholder { color: var(--text-dark) !important; }
@@ -213,6 +213,8 @@
     .table > tbody > tr > td { border-top: 1px solid var(--bg-3); }
     .contest-detail-base .ranking-list .panel-body .ranking-more-btn { border-top: 2px solid var(--bg-3); }
     .contest-detail-base .ranking-list .panel-body .ranking-more-btn:hover { background: var(--bg-2); }
+    .contest-detail-base .callout { background: var(--bg); color: var(--text); border-color: var(--bg-3); }
+    .contest-detail-base .callout a { color: var(--blue); }
     
     /* Discuss Page */
     #discuss-container { background: var(--bg-dark); }
