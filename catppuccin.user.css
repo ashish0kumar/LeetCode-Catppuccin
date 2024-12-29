@@ -9,7 +9,7 @@
 @license        MIT
 ==/UserStyle== */
 
-@-moz-document domain("leetcode.com") {
+@-moz-document domain("leetcode.com"), domain("leetcode.cn") {
     @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..700;1,100..700&display=swap');
     
     :root {
